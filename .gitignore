@@ -1,0 +1,27 @@
+# Sensíveis
+.env
+.env.*
+*.pem
+secrets/
+
+
+# Dependências (subimos o lockfile, mas não o conteúdo das pastas)
+node_modules/
+vendor/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Estado do AgentFS (opcional: se quiser versionar o DB, remova esta linha)
+# .agentfs/
+
+# Logs e Builds
+*.log
+dist/
+build/
+
+# Sistema
+.DS_Store
